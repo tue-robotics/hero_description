@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(amigo_description)
+project(hero_description)
 find_package(catkin REQUIRED)
 catkin_package()
 
@@ -20,4 +20,4 @@ foreach(it ${xacro_files})
 endforeach(it)
 
 # add an abstract target to actually trigger the builds
-add_custom_target(amigo_media_files ALL DEPENDS ${robot_files})
+add_custom_target(hero_media_files ALL DEPENDS ${robot_files})

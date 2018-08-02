@@ -1,9 +1,10 @@
 <package>
-  <name>amigo_description</name>
+  <name>hero_description</name>
   <version>1.0.0</version>
-  <description>This package contains the description (mechanical, kinematic, visual,
+  <description>This package contains the description (kinematic,
   etc.) of the AMIGO robot.</description>
-  <maintainer email="s.v.d.dries@tue.nl">Sjoerd van den Dries</maintainer>
+  <maintainer email="j.geijsberts@student.tue.nl">Josja Geijsberts</maintainer>
+  <maintainer email="p.v.dooren@student.tue.nl">Peter van Dooren</maintainer>
 
   <license>BSD</license>
 
