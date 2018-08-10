@@ -1,47 +1,48 @@
 skills:
     torso:
-        joint_names: ["torso_joint"]
+        joint_names: ["arm_lift_joint"]
         default_configurations:
-            reset: [0.35]
-            lower_limit: [0.09]
-            upper_limit: [0.39]
-            navigation: [0.2]
+            reset: [0.01]
+            lower_limit: [0.0]
+            upper_limit: [0.69]
+            navigation: [0.01]
         default_tolerance: [0.005]
 
     arm:
         joint_names: ['arm_lift_joint', 'arm_flex_joint', 'arm_roll_joint', 'wrist_flex_joint', 'wrist_roll_joint' ]
         default_configurations:
-            reset:             [-0.01, 0.0, -1.57, -1.57, 0.0]
-            handover:          [-0.01, 0.0, -1.57, -1.57, 0.0]
-            handover_pose:     [-0.01, 0.0, -1.57, -1.57, 0.0]
-            carrying_pose:     [-0.01, 0.0, -1.57, -1.57, 0.0]
-            handover_to_human: [-0.01, 0.0, -1.57, -1.57, 0.0]
-            prepare_grasp:     [-0.01, 0.0, -1.57, -1.57, 0.0]
-            retract:           [-0.01, 0.0, -1.57, -1.57, 0.0]
-            sensed_handover:   [-0.01, 0.0, -1.57, -1.57, 0.0]
-            photo:             [-0.01, 0.0, -1.57, -1.57, 0.0]
-            carrying_box_pose: [-0.01, 0.0, -1.57, -1.57, 0.0]
-            carrying_bag_pose: [-0.01, 0.0, -1.57, -1.57, 0.0]
-            driving_bag_pose:  [-0.01, 0.0, -1.57, -1.57, 0.0]
-            drop_bag_pose:     [-0.01, 0.0, -1.57, -1.57, 0.0]
-            zero:              [-0.01, 0.0, -1.57, -1.57, 0.0]
+            reset:             [0.01, 0.0, -1.57, -1.57, 0.0]
+            handover:          [0.01, 0.0, -1.57, -1.57, 0.0]
+            handover_pose:     [0.01, 0.0, -1.57, -1.57, 0.0]
+            carrying_pose:     [0.01, 0.0, -1.57, -1.57, 0.0]
+            handover_to_human: [0.01, 0.0, -1.57, -1.57, 0.0]
+            prepare_grasp:     [0.01, 0.0, -1.57, -1.57, 0.0]
+            retract:           [0.01, 0.0, -1.57, -1.57, 0.0]
+            sensed_handover:   [0.01, 0.0, -1.57, -1.57, 0.0]
+            photo:             [0.01, 0.0, -1.57, -1.57, 0.0]
+            carrying_box_pose: [0.01, 0.0, -1.57, -1.57, 0.0]
+            carrying_bag_pose: [0.01, 0.0, -1.57, -1.57, 0.0]
+            driving_bag_pose:  [0.01, 0.0, -1.57, -1.57, 0.0]
+            drop_bag_pose:     [0.01, 0.0, -1.57, -1.57, 0.0]
+            zero:              [0.01, 0.0, -1.57, -1.57, 0.0]
         default_trajectories:
             prepare_grasp:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.01, 0.0, 0.0, -1.57, 0.0]
+                - [0.4, 0.0, 0.0, -1.57, 0.0]
             prepare_place:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.01, 0.0, -1.57, -1.57, 0.0]
             wave:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.01, 0.0, -1.57, -1.57, 0.0]
             wave_front:
                 - [0.01, 0, -1.57, -0.7, 1.57]
                 - [0.01, 0, -1.57,  0.7, 1.57]
                 - [0.01, 0, -1.57, -0.7, 1.57]
             handshake:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.01, 0.0, -1.57, -1.57, 0.0]
             point_to_laser:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.38, -2.62, -0.32, -1.0, 0.0]
             point_to_kinect:
-                - [-0.01, 0.0, -1.57, -1.57, 0.0]
+                - [0.01, 0.0, -1.57, -1.57, 0.0]
         offset:
             left:  {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
             right: {x: 0.0, y: 0.0,  z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
