@@ -44,7 +44,12 @@ skills:
                 - [0.45, -2.3, -0.22, -1.4, 0.0]
             point_to_kinect:
                 - [0.01, 0.0, -1.57, -1.57, 0.0]
-        mid:
+        left:
+            grasp_offset:  {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
+            marker_to_grippoint: {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
+            base_offset: {x: 0.45, y: 0.08, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
+
+        right:
             grasp_offset:  {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
             marker_to_grippoint: {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
             base_offset: {x: 0.45, y: 0.08, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
