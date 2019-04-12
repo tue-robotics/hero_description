@@ -2,7 +2,7 @@
   <name>hero_description</name>
   <version>1.0.0</version>
   <description>This package contains the description (kinematic,
-  etc.) of the AMIGO robot.</description>
+  etc.) of the HERO robot.</description>
   <maintainer email="j.geijsberts@student.tue.nl">Josja Geijsberts</maintainer>
   <maintainer email="p.v.dooren@student.tue.nl">Peter van Dooren</maintainer>
 
@@ -12,5 +12,4 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>xacro</run_depend>
 </package>
