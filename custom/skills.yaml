@@ -24,6 +24,7 @@ skills:
             carrying_bag_pose: [0.01, 0.0, -1.57, -1.57, 0.0]
             driving_bag_pose:  [0.01, 0.0, -1.57, -1.57, 0.0]
             drop_bag_pose:     [0.01, 0.0, -1.57, -1.57, 0.0]
+            point_at:          [0.40, 0.0, -1.57, -1.57, 0.0]
             zero:              [0.01, 0.0, -1.57, -1.57, 0.0]
         default_trajectories:
             prepare_grasp:
