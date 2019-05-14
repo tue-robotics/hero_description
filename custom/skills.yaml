@@ -30,7 +30,6 @@ skills:
             zero:              [0.01, 0.0, -1.57, -1.57, 0.0]
             arm_out_of_way:    [0.01, -0.3, -1.57, -1.57, 0.0]
             grab_trash_bag:    [0.65, -2.2, 0.0, -0.85, 0.0]
-
         default_trajectories:
             prepare_grasp:
                 - [0.01, -0.2, -1.57, -1.57, 0.0]
