@@ -8,6 +8,7 @@ skills:
             navigation: [0.01]
             grab_trash_down: [0.35]
             grab_trash_up: [0.65]
+            hmi: [0.6]
         default_tolerance: [0.005]
 
     arm:
@@ -28,7 +29,7 @@ skills:
             drop_bag_pose:     [0.01, 0.0, -1.57, -1.57, 0.0]
             point_at:          [0.40, -0.4, 0,    -1.17, 1.57]
             zero:              [0.01, 0.0, -1.57, -1.57, 0.0]
-            arm_out_of_way:   [0.01, -0.3, -1.57, -1.57, 0.0]
+            arm_out_of_way:   [0.6, -0.3, -1.57, -1.57, 0.0]
             grab_bag_trash_bin: [0.65, -2.2, 0.0, -0.85, 0.0]
 
         default_trajectories:
