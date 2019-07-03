@@ -6,7 +6,7 @@ skills:
             lower_limit: [0.0]
             upper_limit: [0.69]
             navigation: [0.01]
-            grab_trash_down: [0.35]
+            grab_trash_down: [0.25]
             grab_trash_up: [0.65]
         default_tolerance: [0.005]
 
