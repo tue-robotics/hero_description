@@ -15,7 +15,7 @@ skills:
         default_configurations:
             reset:             [0.01, 0.0, -1.57, -1.57, 0.0]
             handover:          [0.40, -0.2, 0.0, -1.37, 0.0]
-            handover_pose:     [0.40, -0.2, 0.0, -1.37, 0.0]
+            handover_pose:     [0.40, -1.0, 0.0, -1.57, 0.0]
             carrying_pose:     [0.01, -0.1, -1.57, -1.57, 0.0]
             handover_to_human: [0.40, -0.2, 0.0, -1.37, 0.0]
             prepare_grasp:     [0.01, 0.0, -1.57, -1.57, 0.0]
