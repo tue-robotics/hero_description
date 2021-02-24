@@ -1,14 +1,20 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>hero_description</name>
   <version>1.0.0</version>
-  <description>This package contains the description (kinematic,
-  etc.) of the HERO robot.</description>
+  <description>
+    This package contains the description (kinematic, etc.) of the HERO robot.
+  </description>
   <maintainer email="j.geijsberts@student.tue.nl">Josja Geijsberts</maintainer>
-  <maintainer email="p.v.dooren@student.tue.nl">Peter van Dooren</maintainer>
+  <maintainer email="p.v.dooren@tue.nl">Peter van Dooren</maintainer>
 
   <license>BSD</license>
 
-  <author>Sjoerd van den Dries</author>
+  <author email="j.geijsberts@student.tue.nl">Josja Geijsberts</author>
+  <author email="p.v.dooren@tue.nl">Peter van Dooren</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
