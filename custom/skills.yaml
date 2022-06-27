@@ -4,7 +4,7 @@ skills:
         default_configurations:
             reset: [0.01]
             lower_limit: [0.0]
-            upper_limit: [0.69]
+            upper_limit: [0.67]
             navigation: [0.01]
             grab_trash_down: [0.25]
             grab_trash_up: [0.65]
